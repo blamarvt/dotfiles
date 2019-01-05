@@ -34,7 +34,8 @@ set background=dark
 
 " Utility features
 set ruler
-set number
+set nonumber
+set mouse=
 set cursorline
 set history=1000
 set bs=2
