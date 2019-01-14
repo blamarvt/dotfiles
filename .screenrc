@@ -30,3 +30,13 @@ defscrollback 50000
 
 caption always "%{gk}[ %{G}%H %{g}][%= %{wk}%?%-Lw%?%{=b kR}(%{W}%n*%f %t%?(%u)%?%{=b kR})%{= kw}%?%+Lw%?%?%= %{g}][%{Y}%l%{g}]%{=b C}[ %m/%d %c ]%{W}"
 
+screen -t bash    1 
+screen -t chef    2 sh -c "cd ~/dev/chef"
+screen -t tasks   3 sh -c "cd ~/dev/tasks"
+screen -t connect 4 sh -c "cd ~/go/src/github.com/omnivore/giganto/"
+screen -t gtasks  5 sh -c "cd ~/go/src/github.com/omnivore/giganto/"
+screen -t broker  6 sh -c "cd ~/go/src/github.com/omnivore/giganto/"
+screen -t api     7 sh -c "cd ~/dev/api"
+screen -t panel   8 sh -c "cd ~/dev/panel"
+screen -t proxy   9 sh -c "cd ~/dev/proxy"
+screen -t logs   10 sh -c "cd ~/dev/logs"

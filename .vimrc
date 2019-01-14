@@ -13,7 +13,7 @@ Plugin 'fatih/vim-go'
 Plugin 'w0rp/ale'
 
 let g:ale_fix_on_save = 1
-let g:ale_lint_delay = 0
+let g:ale_lint_delay = 100
 let g:ale_completion_enabled = 1
 let g:go_fmt_command = "goimports"
 
