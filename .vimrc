@@ -11,6 +11,7 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'fatih/vim-go'
 Plugin 'w0rp/ale'
+call vundle#end()
 
 let g:ale_fix_on_save = 1
 let g:ale_lint_delay = 100
